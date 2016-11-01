@@ -1,0 +1,269 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+a {
+  color: inherit; }
+
+a:link {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:focus {
+  outline-width: 0; }
+
+.hidden {
+  display: none; }
+
+lh {
+  display: block; }
+
+h1, h2, h3, h4, h5 {
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0; }
+
+button {
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  margin: 0;
+  -webkit-font-smoothing: inherit;
+  color: inherit; }
+
+input {
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  margin: 0;
+  -webkit-font-smoothing: inherit;
+  color: inherit; }
+
+ul, dl {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+dt, dd {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  height: 100%; }
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden; }
+
+html {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  color: #313131;
+  background-color: #ebe3e1; }
+
+header {
+  position: absolute;
+  width: 100%;
+  padding: 30px; }
+  header img {
+    width: 25%; }
+  header h1, header h2 {
+    position: relative;
+    color: #f15f69; }
+  header h1 {
+    font-size: 2rem;
+    top: 10px;
+    font-weight: 900; }
+  header h2 {
+    font-size: 1.5rem;
+    font-family: Helvetica, Arial, sans-serif;
+    top: 12px; }
+
+.landing-section {
+  height: 100vh; }
+
+.landing-bg-image {
+  background-image: url(../images/tck_cover-photo.jpg);
+  background-size: cover;
+  background-position: 50% 70%;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+#mc_embed_signup {
+  position: absolute;
+  top: 75%;
+  background: transparent;
+  clear: left;
+  font: 1rem Helvetica,Arial,sans-serif;
+  width: 100%;
+  text-align: center; }
+  #mc_embed_signup h4 {
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #313131;
+    display: inline-block;
+    padding: 5px 10px; }
+  #mc_embed_signup input.button {
+    background-color: #f15f69; }
+
+div.social-icons {
+  margin: 0 auto;
+  display: inline-block; }
+  div.social-icons div {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-image: url(../images/fb-logo-pink.png);
+    background-size: 100%; }
+  div.social-icons p {
+    color: #f15f69;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem; }
+  div.social-icons a:hover div {
+    background-image: url(../images/fb-logo-white.png);
+    background-size: 100%; }
+  div.social-icons a:hover p {
+    color: white; }
+
+.videos-section h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 10rem; }
+
+.videos-section .video-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 150px;
+  position: relative; }
+
+.poem-section {
+  margin-top: 150px; }
+  .poem-section p {
+    text-align: center;
+    line-height: 2rem; }
+  .poem-section p.author {
+    margin-top: 60px;
+    color: #f15f69; }
+
+footer {
+  background-color: #313131;
+  margin-top: 150px;
+  padding: 30px;
+  text-align: center; }
+  footer img {
+    width: 40px;
+    margin: 0 10px;
+    display: inline-block; }
+  footer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 15px; }
+
+@media screen and (max-width: 950px) {
+  .landing-bg-image {
+    background-image: url(../images/Music-page-retouched.jpg);
+    background-size: cover;
+    background-position: 50% 80%; } }
+@media screen and (max-width: 950px) {
+  header {
+    text-align: center; }
+    header img {
+      margin: 0 auto;
+      width: 40%; }
+
+  .landing-bg-image {
+    background-image: url(../images/Music-page-retouched.jpg);
+    background-size: cover;
+    background-position: 50% 80%; }
+
+  .videos-section .video-wrapper {
+    width: 80%; } }
+@media screen and (max-width: 769px) {
+  #mc_embed_signup {
+    width: 80%;
+    left: 50%;
+    margin-left: -40%; }
+
+  .videos-section .video-wrapper {
+    width: 100%; } }
